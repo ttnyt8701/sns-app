@@ -1,0 +1,22 @@
+.followings{
+    display:flex;
+
+}
+
+.followingsTop{
+
+}
+
+.followingsCenter{
+    display: flex;
+}
+
+.followingsUsers{
+    flex: 6.6;
+}
+
+.followingsRightbar{
+    position: fixed;
+    top: 30;
+    right:0;
+}

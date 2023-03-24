@@ -1,0 +1,64 @@
+.sidebar{
+    flex:2;
+    height: 100vh;
+    position:sticky;
+    top:50px;
+    left:0px;
+    background-color: whitesmoke;
+}
+
+.sidebarWrapper{
+    padding: 35px;
+    left: 10px;
+}
+
+.sidebarList{
+    padding: 0;
+    margin:0;
+    list-style:none;
+}
+
+.sidebarListItem{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding:0;
+    cursor:pointer;
+    /* box-shadow: 8px 2px 14px -5px #ada9a9; */
+    border-radius: 20px;
+    color: black ;
+    /* border:1px solid; border-color:gray;  */
+
+    /* 沈み込みを遅く */
+    transition:all 0.1s 
+
+
+}
+/* 沈みこみ（ホバー） */
+.sidebarListItem:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.sidebarIcon{
+    font-size: 33px !important;
+    margin-right: 0px;
+    color:gray;
+
+}
+
+
+.sidebarHr{
+    margin: 20px 0;
+}
+
+
+.AddIcon{
+    font-size: 50px !important;
+    color:#1da1f2;
+    
+  
+    
+
+}
+

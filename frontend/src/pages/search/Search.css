@@ -1,0 +1,35 @@
+.serach {
+    display: flex;
+
+}
+.serachPost {
+    
+}
+
+.serachWrapper {
+    display: flex;
+
+}
+
+.searchCenter {}
+
+.searchCenter {
+    display: flex;
+}
+
+.searchTopbar{
+    width: 100%;
+    position:sticky;
+    top:50px;
+    left:0px;
+    z-index:100;
+    background-color: whitesmoke;
+
+}
+
+.search-postMenues{
+    display: flex;
+    
+    
+  
+}

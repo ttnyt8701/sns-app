@@ -1,0 +1,27 @@
+{
+  "name": "sns-app",
+  "version": "1.0.0",
+  "description": "sns-app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttnyt8701/sns-app.git"
+  },
+  "author": "ttnyt8701",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttnyt8701/sns-app/issues"
+  },
+  "homepage": "https://github.com/ttnyt8701/sns-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongoose": "^6.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,11 @@
+.timeline{
+    flex: 6.5;
+}
+
+.timelineWrapper{
+    padding: 10px;
+}
+
+.postMenues{
+    display: flex;
+}
