@@ -25,7 +25,8 @@
 - フロントエンド: React
 - バックエンド: Node.js
 - フレームワーク: Express
-- データベース: MongoDB,redis(予定)
+- データベース: MongoDB
+- インメモリストア： redis(予定)
 - Webサーバー: Nginx
 - サーバー: KAGOYA VPS
 - コンテナ: docker
