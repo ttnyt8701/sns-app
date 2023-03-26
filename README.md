@@ -31,7 +31,7 @@
 - コンテナ: docker
 - バージョン管理: git
 - CI/CD: GithubActions(予定)
-- OS: Ubuntu
+- OS: Ubuntu 22.04
 
 
 開発効率・学習コスト、またパフォーマンスを考慮してJavascript、非同期処理で記述できる技術にしました。  
