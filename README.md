@@ -96,6 +96,7 @@ URL（開発中）にアクセスして使用してください。
 - git
 - docker
 - docker-compose
+-mongoDBアカウント、
 
 #### 手順
 
@@ -115,11 +116,13 @@ sns-app/
 │   └── nginx.conf
 └── docker-compose.yml
 ```
-3. docoker-compose.ymlが存在するディレクトリで`docker-compose up -d`を実行。  
+3.  sns-app/backendに.envファイルを作成し、`MONGOURL = <mongoDB application code>`を書き込む。
 
-4. `docker image ls`、 `docker container ls`を実行。イメージが作成されコンテナが起動していることを確認。
+4. docoker-compose.ymlが存在するディレクトリで`docker-compose up -d`を実行。  
 
-3. <http://localhost:80>からアプリにアクセス。
+5. `docker image ls`、 `docker container ls`を実行。イメージが作成されコンテナが起動していることを確認。
+
+6. <http://localhost:80>からアプリにアクセス。
 
 ## ライセンス  
 準備中
