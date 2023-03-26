@@ -51,11 +51,14 @@ WebRTC,OpenCVを活用してプライバシーを守ったビデオ配信機能�
 ## 技術
 
 - OS: Ubuntu
-- Frontend: React
-- Backend: Node.js
-- Framework: Express
-- Database: Mongodb
-- Webserver: Nginx
+- フロントエンド: React
+- バックエンド: Node.js
+- フレームワーク: Express
+- データベース: Mongodb
+- Webサーバー: Nginx
+- コンテナ: docker
+- バージョン管理: git
+- サーバー: KAGOYA VPS
 
 開発効率・学習コストを考慮して全てJavascriptで記述できる技術にしました。  
 非同期処理で開発しています。
@@ -77,7 +80,7 @@ WebRTC,OpenCVを活用してプライバシーを守ったビデオ配信機能�
 <URL>にアクセスして使用してください。
 
 
-### ローカル環境にインストール
+### ローカル環境で実行
 
 #### 必要なもの
 
