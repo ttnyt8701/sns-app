@@ -272,8 +272,8 @@ export default function Profile() {
                       </Modal.Header>
                       <Modal.Body>
                         <div className="profileCover">
-                          <label htmlFor='coverPictureFile'>
-                            <img src={user.coverPicture ? PUBLIC_FOLDER + user.coverPicture : PUBLIC_FOLDER + "/person/noAvatar.png"} className="profileCoverImg" />
+                          <label className="profileCoverImg" htmlFor='coverPictureFile' style={{ backgroundImage: `url(${user.coverPicture ? PUBLIC_FOLDER + user.coverPicture : PUBLIC_FOLDER + "/person/noAvatar.png"})`}}>
+                            {/* <img src={user.coverPicture ? PUBLIC_FOLDER + user.coverPicture : PUBLIC_FOLDER + "/person/noAvatar.png"} className="profileCoverImg" /> */}
                             <input type="file" id="profilePictureFile" accept=".png,.jpeg,.jpg" style={{ display: "none" }} onChange={(e) => setProfileFile(e.target.files ? e.target.files[0] : null)} />
                           </label>
                           <label htmlFor='profilePictureFile'>
