@@ -58,6 +58,7 @@ WebRTC,OpenCVを活用してプライバシーを守ったビデオ配信機能�
 - サーバー: KAGOYA VPS
 - コンテナ: docker
 - バージョン管理: git
+- CI/CD: GithubActions(予定)
 - OS: Ubuntu
 
 
