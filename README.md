@@ -41,14 +41,11 @@
 - material UI  
 - Bootstrap
 - timeago.js
+- OpenCV.js (予定)
 
-### 追加したい技術
-- WebRTC  
-- OpenCV.js
-- Recoil
-- Next.js
-- TypeScript
-- Nest.Js
+### API
+- WebRTC (予定)
+
 
 ## 機能一覧
 
