@@ -119,7 +119,7 @@ sns-app/
 
 4. `docker image ls`、 `docker container ls`を実行。イメージが作成されコンテナが起動していることを確認。
 
-3. <http://localhost:80>からアプリにアクセスできる。
+3. <http://localhost:80>からアプリにアクセス。
 
 ## ライセンス  
 準備中
