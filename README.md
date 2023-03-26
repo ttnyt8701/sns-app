@@ -96,7 +96,7 @@ URL（開発中）にアクセスして使用してください。
 - git
 - docker
 - docker-compose
--mongoDBアカウント、
+- mongoDBアカウント、
 
 #### 手順
 
