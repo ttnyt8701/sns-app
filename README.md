@@ -31,8 +31,10 @@
 非同期処理で開発しています。
 
 ### 使用ライブラリ
+- Redux
 - material UI  
 - Bootstrap
+- timeago.js
 
 ### 追加したい技術
 - WebRTC  
