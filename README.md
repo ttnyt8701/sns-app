@@ -118,7 +118,7 @@ sns-app/
 │   └── nginx.conf
 └── docker-compose.yml
 ```
-3.  sns-app/backendに.envファイルを作成し、`MONGOURL = <mongoDB application code>`を書き込む。
+3.  sns-app/backendに.envファイルを作成し、`MONGOURL = <your mongoDB application code>`を書き込む。
 
 4. docoker-compose.ymlが存在するディレクトリで`docker-compose up -d`を実行。  
 
