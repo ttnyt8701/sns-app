@@ -2,12 +2,11 @@
     display: flex;
 
 }
-.serachPost {
-    
+.searchPost {
+    width:100%;
 }
 
 .serachWrapper {
-    display: flex;
 
 }
 

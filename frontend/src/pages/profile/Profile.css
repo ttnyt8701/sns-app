@@ -80,3 +80,9 @@
 .postMenue{
     display: flex;
 }
+
+.coverPictureFile{
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+}

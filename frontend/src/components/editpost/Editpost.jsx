@@ -96,7 +96,7 @@ export default function Editpost({ post, loginUser, show, handleClick }) {
                                 ?
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlImg" >
                                     <div style={{ position: "relative" }}>
-                                        <Form.Label ><img src={PUBLIC_FOLDER + imgState} style={{ size: "10%" }} /></Form.Label>
+                                        <Form.Label ><img src={PUBLIC_FOLDER + imgState} style={{ width: "100%" }} /></Form.Label>
                                         <Button type="button" className="btn-close" style={{ margin: "0 0 140px 0" }} aria-label="Close" onClick={() => setImgState(null)}></Button></div>
                                 </Form.Group>
                                 :
