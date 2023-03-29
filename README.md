@@ -122,7 +122,7 @@ sns-app/
 ```
 3.  sns-app/backend/.envを作成し、`MONGOURL = <your mongoDB application code>`を書き込む。
 
-4. sns-app/frontend/.envに`http://localhost:8000/images/`に変更する。
+4. sns-app/frontend/.envを`http://localhost:8000/images/`に変更する。
 
 5. docoker-compose.ymlが存在するディレクトリで`docker-compose up -d`を実行。  
 
