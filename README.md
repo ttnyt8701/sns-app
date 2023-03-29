@@ -28,8 +28,8 @@
 - データベース: MongoDB
 - セッション管理: Redis(予定)
 - Webサーバー: Nginx
-- コンテナ: docker
-- バージョン管理: git
+- コンテナ: Docker/Docker-compose
+- バージョン管理: Git/GitHub
 - CI/CD: Github Actions(予定)
 - サーバー: KAGOYA VPS
 - OS: Ubuntu 22.04
