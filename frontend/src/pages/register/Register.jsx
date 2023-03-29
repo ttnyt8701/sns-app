@@ -41,8 +41,8 @@ export default function Register() {
  className="register">
         <div className="registerWrapper">
             <div className="registerLeft">
-                <h3 className="registerLogo">SNS-APP</h3>
-                <span className="registerDesc">SNSアプリ、始めました。</span>
+                <h3 className="registerLogo">SNS</h3>
+                <span className="registerDesc">SNS-app,test</span>
             </div>
             <div className="registerRight">
                 <form className="registerBox" onSubmit={(e)=>handleSubmit(e)}>

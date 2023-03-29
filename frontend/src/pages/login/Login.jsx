@@ -37,7 +37,7 @@ export default function Login() {
             <input type="email" className="loginInput" placeholder="メールアドレス" required ref={email} />
             <input type="password" className="loginInput" placeholder="パスワード" required minLength="5" ref={password} />
             <button className="loginButton">ログイン</button>
-            <span className="loginForgot">パスワードを忘れた方へ</span>
+            {/* <span className="loginForgot">パスワードを忘れた方へ</span> */}
             <Link to="/register" style={{marginLeft:"110px"}}>
             <button className="LoginRegisterButton">アカウント作成</button>
             </Link>
