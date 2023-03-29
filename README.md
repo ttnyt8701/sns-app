@@ -120,13 +120,15 @@ sns-app/
 │   └── nginx.conf
 └── docker-compose.yml
 ```
-3.  sns-app/backendに.envファイルを作成し、`MONGOURL = <your mongoDB application code>`を書き込む。
+3.  sns-app/backend/.envを作成し、`MONGOURL = <your mongoDB application code>`を書き込む。
 
-4. docoker-compose.ymlが存在するディレクトリで`docker-compose up -d`を実行。  
+4. sns-app/frontend/.envに`http://localhost:8000/images/`に変更する。
 
-5. `docker image ls`、 `docker container ls`を実行。イメージが作成されコンテナが起動していることを確認。
+5. docoker-compose.ymlが存在するディレクトリで`docker-compose up -d`を実行。  
 
-6. <http://localhost:80>からアプリにアクセス。
+6. `docker image ls`、 `docker container ls`を実行。イメージが作成されコンテナが起動していることを確認。
+
+7. <http://localhost:80>からアプリにアクセス。
 
 ## ライセンス  
 準備中
