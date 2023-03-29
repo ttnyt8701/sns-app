@@ -26,12 +26,12 @@
 - バックエンド: Node.js
 - フレームワーク: Express
 - データベース: MongoDB
+- セッション管理: Redis(予定)
 - Webサーバー: Nginx
-- サーバー: KAGOYA VPS
 - コンテナ: docker
 - バージョン管理: git
-- CI/CD: GithubActions(予定)
-- セッション管理: Redis(予定)
+- CI/CD: Github Actions(予定)
+- サーバー: KAGOYA VPS
 - OS: Ubuntu 22.04
 
 
