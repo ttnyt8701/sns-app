@@ -45,7 +45,7 @@
 - multer
 - OpenCV.js (予定)
 
-### API
+### WebAPI
 - WebRTC (予定)
 
 
