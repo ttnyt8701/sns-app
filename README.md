@@ -43,6 +43,10 @@
 - Bootstrap
 - timeago.js
 - multer
+- mongoose
+- dotenv
+- nodemon
+- helmet
 - OpenCV.js (予定)
 
 ### WebAPI
