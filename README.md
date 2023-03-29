@@ -25,12 +25,13 @@
 - フロントエンド: React
 - バックエンド: Node.js
 - フレームワーク: Express
-- データベース: MongoDB,redis(予定)
+- データベース: MongoDB
 - Webサーバー: Nginx
 - サーバー: KAGOYA VPS
 - コンテナ: docker
 - バージョン管理: git
 - CI/CD: GithubActions(予定)
+- セッション管理: Redis(予定)
 - OS: Ubuntu 22.04
 
 
