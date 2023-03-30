@@ -12,16 +12,16 @@ services:
     build: ./backend
     ports:
       - "8000:8000"
-    depends_on:
-      - mongo
+    # depends_on:
+    #   - mongo
     volumes:
       - images_data:/public/images
 
-  mongo:
-    container_name: mongo
-    image: mongo
-    volumes:
-      - mongo_data:/data/db
+  # mongo:
+  #   container_name: mongo
+  #   image: mongo
+  #   volumes:
+  #     - mongo_data:/data/db
 
   nginx:
     container_name: nginx
@@ -33,5 +33,5 @@ services:
       - backend
 
 volumes:
-  mongo_data:
+  # mongo_data:
   images_data:
