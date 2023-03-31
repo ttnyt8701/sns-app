@@ -18,4 +18,7 @@ jobs:
           port: ${{secrets.SSH_PORT}}
           script: |
             cd dv/sns-app
+            docker-compose down
+            docker image prune -ay
+            docker-compose up
 
