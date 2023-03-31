@@ -3,7 +3,7 @@
 ### 概要
 このプロジェクトはMERNスタック※で作成したSNSアプリです。
 
-※MongoDB,Express,React,Node.jsを用いたWeb開発スタック.！！！！？？？？
+※MongoDB,Express,React,Node.jsを用いたWeb開発スタック
 
 ### 背景
 このアプリは、フルスタック開発を学習するために作成しました。テーマは「習慣化」に特化したSNSです。(予定)  
