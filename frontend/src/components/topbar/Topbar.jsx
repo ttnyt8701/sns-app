@@ -35,7 +35,7 @@ export default function Topbar() {
     <div className="topbarContainer">
       <div className="topbarLeft">
         <Link to="/login" style={{ textDecoration: "none", color: "black" }}>
-          <span className="logo">SNS</span>
+          <span className="logo">SNS-app</span>
         </Link>
       </div>
 
